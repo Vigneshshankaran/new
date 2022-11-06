@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+/* Profile Image */
+
+.pic-border {
+    padding-top: 5rem;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image,
+.profile-pic {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid#fff;
+    box-shadow: 0px 0px 22px 0px rgb(0 0 0 / 25%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Name */
+.freelancer-name {
+    margin-bottom: 1rem;
+}
+
+.name-sty {
+    font-weight: 600;
+    font-size: 2.125rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+/* Designation */
+.designtion-container {
+    margin: -10px 0px 0px 0px;
+}
+
+.designation-txt {
+    text-align: center;
+    font-weight: 600px;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    text-align: center;
+    color: #424242;
+}
+
+/* Whatsapp Number */
+.whats-num{
+    padding: 0.875rem;
+margin-bottom: 0.875rem;
+display: flex;
+justify-content: center;
+}
+.elementor-number {
+    background-color: RGB(1, 167, 2);
+    font-size: 0.875rem;
+    padding: 13px 40px;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 0px 10px 15px 1px rgb(1 167 2 / 50%);
+}
+.svg-basge{
+    width: 100px;
+    height: 200px;
+    color: RGB(1, 167, 2);
+}
+.svg-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.bio-sec{
+    text-align: center;
+}
+.bio-sec p{
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.6em;
+}
+.services-section {
+    display: flexbox;
+    background-color: #FFBE43;
+    box-shadow: 0px 15px 25px 0px rgb(255 216 0 / 51%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.servies-text {
+    font-size: 60px;
+    line-height: 84px;
+    letter-spacing: -2px;
+    font-weight: 600;
+    text-align: start;
+    color: #ffff;
+    margin: 0;
+}
+.servies-texts {
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: start;
+    color: #ffff;
+}
+.elementor-row {
+    width: 100;
+    display: flex;
+}
+
+.data-element_type {
+    width: 50%;
+    display: flex;
+    min-height: 1px;
+}
+
+.elementor-column-wrap {
+    padding: 30px 30px 30px 30px;
+}
+
+.elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.elementor-element {
+    margin-bottom: 15px;
+}
+
+.elementor-size-default {
+    color: #2B2E43;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    letter-spacing: -1.4px;
+}
+
+.elementor-widget-wrap1 {
+    color: #2B2E43;
+}
+
+.elementor-column {
+    width: 50%;
+}
+.name-my-works {
+    background-color: #2B2E43;
+    padding: 30px 30px 30px 30px;
+    min-height: auto;
+    min-width: auto;
+    box-shadow: 0px 15px 25px 0px rgb(255 216 0 / 51%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.myskill {
+    line-height: 84px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 84px;
+    text-decoration: none solid rgb(43, 46, 67);
+    word-spacing: 0px;
+    vertical-align: baseline;
+    color: #fff;
+}
+
+
+.imageflex-row {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.flex-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.player-wrapper {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.react-player{
+    margin: 1rem;
+
+}
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
   }
-}
